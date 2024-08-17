@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h2> Pottery Class Signup Form:</h2>
+     <p> Fall registration is open for a spot in our pottery class:</p>
+     <img src="https://th.bing.com/th/id/OIP.GpfQU8fmV-ikueX3fEVWQQHaFD?w=295&h=201&c=7&r=0&o=5&pid=1.7" alt="Pottery Image", width="350", height="300">
+     <p>Please enter your information below to begin the registration process.... </p>
+    
+     <form action="mailto:hairshegoesss@gmail.com"
+method="POST"
+enctype="multipart/form-data"
+name="email">
+    Name:<br>
+    <input type="text" size="19" name="Contact-Name"><br><br>
+    Email:<br>
+    <input type="email" name="Contact-Email"><br><br> 
+    Message:<br> 
+    <textarea name="Contact-Message" rows="6″ cols="20″>
+    </textarea><br><br> 
+
+    <section>
+        <h3> What is your pottery making skill level?</h3>
+        <label>Skill Level</label>
+        <input type="radio" id="email" name="contact-method" value="beginner" >
+        <label for="beginner">Beginner:</label>
+        <input type="radio" id="intermediate" name="contact-method" value="intermediate">
+        <label for="intermediate">Intermediate:</label>
+        <input type="radio" id="advanced" name="contact-method" value="advanced">
+        <label for="advanced">Advanced:</label>
+    </section>
+
+    <section> 
+        <h4> Contact Method: </h4>
+        <p> There is study material provided, <strong>in addition to in-person</strong> pottery classes.</p>
+        <p> How would you like to receive the course study material?</p>
+        <input type="checkbox" id="web" name="web" value="Web Platform">
+        <label for="web"> I prefer web/online learning to study the course homework</label><br>
+        <input type="checkbox" id="mobile" name="mobile" value="Mobile Platform">
+        <label for="mobile">I prefer a mobile learning  platform to study the course homework </label><br>
+        <input type="checkbox" id="desktop" name="desktop" value="Desktop Platform">
+        <label for="desktop"> I prefer to download the course homework to my desktop</label><br>
+    </section> 
+        
+    <button type="submit" value="Submit">Send Registration Form</button>
+</form>  
+
+</body>
+
+</html>
